@@ -13,6 +13,8 @@ spec:
       params:
         - name: url
           value: https://github.com/spring-projects/spring-petclinic
+        - name: revision
+          value: main
   workspaces:
   - name: local-maven-repo
     persistentVolumeClaim:
